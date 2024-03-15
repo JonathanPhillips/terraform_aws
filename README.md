@@ -1,2 +1,3 @@
 # terraform_aws
-Terraform AWS examples
+Terraform AWS templates
+
