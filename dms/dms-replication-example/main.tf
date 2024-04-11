@@ -1,5 +1,5 @@
 module "dms-replication-connect-sqlserver-to-s3" {
-  source = "../../modules
+  source = "../../modules/dms/dms_replication"
 
 
   env_name              = "sandbox"
