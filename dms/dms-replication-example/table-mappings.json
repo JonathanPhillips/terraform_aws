@@ -1,0 +1,27 @@
+{
+    "rules": [
+        {
+            "rule-type": "selection",
+            "rule-id": "1",
+            "rule-name": "1",
+            "object-locator": {
+                "schema-name": "source_schema",
+                "table-name": "source_table"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "2",
+            "rule-name": "2",
+            "rule-target": "schema",
+            "object-locator": {
+                "schema-name": "source_schema"
+            },
+            "rule-action": "rename",
+            "value": "target_schema",
+            "old-value": null
+        }
+    ]
+}
