@@ -1,0 +1,5 @@
+schema,table
+public,employees
+sales,orders
+hr,payroll
+marketing,leads
